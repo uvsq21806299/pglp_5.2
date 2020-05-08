@@ -9,6 +9,11 @@ package fr.uvsq.pglp_5;
  *
  * @author andri
  */
-public class DAO {
+public abstract class DAO<T> {
+    
+    public abstract T create (T obj ) ; 
+    public abstract T find ( String id ) ; 
+    public abstract T update(T obj ) ; 
+    public abstract void delete (T obj ) ;
     
 }
