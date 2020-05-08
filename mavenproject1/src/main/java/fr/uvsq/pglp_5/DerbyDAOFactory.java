@@ -15,7 +15,9 @@ import java.sql.SQLException;
  */
 public class DerbyDAOFactory extends DAOFactory{
     
+    //public static final String DBURL = "jdbc:derby:/Users/andri/Personnels";
     public static final String DBURL = "jdbc:derby:/Users/andri/Personnels";
+    
 
     public static Connection creeConnection() throws SQLException
     {
