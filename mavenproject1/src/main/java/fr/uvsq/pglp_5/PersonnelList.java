@@ -10,6 +10,7 @@ package fr.uvsq.pglp_5;
  * @author andri
  */
 public abstract class PersonnelList implements java.io.Serializable{
+    
     protected String name;
     public abstract void list();
     
