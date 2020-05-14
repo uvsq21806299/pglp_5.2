@@ -15,6 +15,10 @@ import java.util.List;
  * @author andri
  */
 public class Personnel extends PersonnelList implements java.io.Serializable{
+
+    static Object PersonnelBuilder(String ramaroson, String andritsalama) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     private String nom;
     private String prenom;
@@ -88,6 +92,7 @@ public class Personnel extends PersonnelList implements java.io.Serializable{
         
         nom = personnelBuilder.nom;
         prenom = personnelBuilder.prenom;
+        
     }
     
     @Override
