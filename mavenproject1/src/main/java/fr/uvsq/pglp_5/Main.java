@@ -14,13 +14,12 @@ public class Main {
     public static void main(String[] args){
         
         DAOFactory derbyFactory = DAOFactory.getDAOFactory(1);
+        derbyFactory.getPersonnelDAO();
         
-        Personnel personnel1 = Personnel.PersonnelBuilder("RAMAROSON", "Andritsalama")
-                .build();
-        Personnel personnel2 = Personnel.PersonnelBuilder("RANDRIA", "Ando")
-                .build();
+        //Personnel personnel1 = Personnel.PersonnelBuilder("RAMAROSON", "Andritsalama").build();
+        //Personnel personnel2 = Personnel.PersonnelBuilder("RANDRIA", "Ando").build();
         
         
-        //derbyFactory.getPersonnelDAO();
+        
     }
 }
